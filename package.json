@@ -1,0 +1,20 @@
+{
+  "name": "p5-motion",
+  "version": "1.0.0",
+  "description": "A collection of animation utilities and functions",
+  "main": "sketch-motion.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucacattan3o/p5.js-motion.git"
+  },
+  "keywords": [
+    "p5.js",
+    "motion"
+  ],
+  "author": "Luca Cattaneo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucacattan3o/p5.js-motion/issues"
+  },
+  "homepage": "https://github.com/lucacattan3o/p5.js-motion#readme"
+}
