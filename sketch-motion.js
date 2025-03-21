@@ -5,7 +5,7 @@
  */
 
 let motionSettings = {
-  fps: 30
+  fps: 60
 };
 
 function frameRateMotion(fps){
@@ -23,7 +23,7 @@ function getLoop(vel = 1, delay = 0) {
 }
 
 /**
- * Get sinusoidal loop (-1 to 1)
+ * Get sinusoidal loop (1 to -1)
  * @param {Number} velocity
  * @param {Number} delay: 0-1
  */
@@ -33,7 +33,7 @@ function getLoopBounce(vel = 1, delay = 0) {
 }
 
 /**
- * Get linear loop (-1 to 1)
+ * Get linear loop (1 to -1)
  * @param {Number} velocity
  * @param {Number} delay: 0-1
  */
