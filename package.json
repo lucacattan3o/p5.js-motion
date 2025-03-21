@@ -1,7 +1,7 @@
 {
   "name": "p5-motion",
-  "version": "1.0.0",
-  "description": "A collection of animation utilities and functions",
+  "version": "1.0.1",
+  "description": "This library provides useful functions for creating time-based animations in p5.js",
   "main": "sketch-motion.js",
   "repository": {
     "type": "git",
