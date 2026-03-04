@@ -8,7 +8,7 @@ let motionSettings = {
   fps: 60
 };
 
-function frameRateMotion(fps){
+function frameRateMotion(fps) {
   motionSettings.fps = fps;
 }
 
@@ -29,7 +29,18 @@ function getLoop(vel = 1, delay = 0) {
  */
 function getLoopBounce(vel = 1, delay = 0) {
   let anim = getAnimation(vel, delay);
-  return sin(anim * TWO_PI);
+
+  let am = angleMode();
+  if (am == DEGREES){
+    angleMode(RADIANS);
+  }
+
+  let value = sin(anim * TWO_PI);
+  if (am == DEGREES){
+    angleMode(DEGREES);
+  }
+
+  return value ;
 }
 
 /**

@@ -5,6 +5,7 @@ function setup() {
   
   frameRate(fps);
   frameRateMotion(fps);
+  angleMode(DEGREES);
 }
 
 function draw() {
@@ -15,6 +16,8 @@ function draw() {
 
   translate(200, 200);
   let b = getLoopBounce(0.25);
-  circle(b * 100, 0, 20);
+  rect(b * 100, 0, 20);
+
+  b = floor(b * 100) / 100;
   text(b, 0, 30);
 }
